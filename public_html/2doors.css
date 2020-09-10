@@ -1,0 +1,302 @@
+body{
+    background-image: url(/images/fondo1.jpg);
+    background-attachment: fixed;
+
+}
+
+body h1{
+    color: red;
+    text-align: left;
+    font-size: 50px;
+    margin: 40px;
+    position: absolute;
+}
+.headerMenu{
+    background-color: gray;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.menu{
+    top: 33px;
+    position: relative;
+}
+
+.headerMenu ul li{
+    top: 50%;
+    position: relative;
+     display: inline;
+    text-align: center;
+    color: silver;
+    font-size: 25px;
+    margin: 50px;
+    background-color: black;
+    border: silver solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.headerMenu ul li:hover{
+    background-color: silver;
+    border: silver solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    color: red;
+}
+
+
+
+.principal{
+    background-color: silver;
+    height: auto;
+    width: 1150px;
+    left: 3%;
+    position: relative;
+    border-radius:  20px;
+    border: silver solid 3px;
+}
+
+
+.logo{
+    left: 100px;
+    width: 10px;
+    position: relative;
+
+}
+.prueba{
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0px;
+    position: relative;
+    
+    
+
+}
+.theBand{
+
+
+     background-image: url(/images/fondo2.jpg);
+       
+    position: relative;
+
+    height: 550px;
+
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+        
+
+}
+
+#resena{
+    color: silver;
+    font-family: Bradley Hand Itc;
+    text-align: center;
+    width: 550px;
+    position: relative;
+    left: 120px;
+    top: 135px;
+   
+}
+
+.members{
+    background-image:linear-gradient( 0deg,black 10% , rgba(92, 13, 7,1) 50%, black 70% );
+    position: relative;
+    text-align: center;
+    height: 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+
+ 
+}
+.members div:hover{
+
+    transform: scale(2);
+}
+
+.members div{
+    display: inline-block;
+    margin: 30px;
+    color: silver;
+    top: 100px;
+    position: relative;
+}
+
+.members div img{
+border-radius: 20px;
+}
+
+.albums{
+
+background-color: silver;
+height: 1500px;
+width: auto;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+
+        .discos{
+            top: 130px;
+            width: auto;
+        height: auto;
+            position: relative;
+            border-top: gray solid 2px;
+        }
+                .discos h3{
+                    text-align: left;
+                    left: 5%;
+                    position: relative;
+                    font-size: 20px;
+                }
+
+                .discos div{
+
+                    display: inline-block;
+                }
+                .discos img{
+                    
+                        max-width:100%;
+                        height:auto;
+                        display: inline-block;
+                    }
+
+                    .tapa{
+                        height: 300px;
+                        width: 300px;
+                        margin: 40px;
+
+                    }
+
+                    .tracks{
+                        height: 300px;
+                        width: 300px;
+                        margin: 40px;
+                        position: absolute;
+                    }
+
+                    .spotify{
+                        height: 100px;
+                        width: 300px;
+                        margin: 50px;
+                        position: absolute;
+                        left: 65%;
+                    }
+
+.videos{
+    background-color: black;
+    height: 500px;
+    position: relative;
+    width: auto;
+    border-radius: 20px;
+
+}
+        .concert{
+            position: relative;
+            display: inline-block;   
+            border: red solid 2px;  
+            top: 30%;    
+            border-radius: 5px;
+        }
+            #concert1{
+                position: relative;
+                left: 10%;
+               
+            }
+            #concert2{
+                position: relative;
+                left: 20%;
+              
+            }
+
+
+
+
+.upbutton {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top:84%;
+    left:92%;   
+}
+.social{
+    left: 0px;
+    top: 86%;
+   }
+
+.social img{
+                    
+    max-width:100%;
+    height:auto;
+    display: inline-block;
+}
+#instagram{
+    left: 87%;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+}
+#youtube{
+    left: 84%;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+}
+#facebook{
+    left: 81%;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+
+}
+
+
+footer div{
+    
+    height: 300px;
+  
+    position: relative;
+   
+}
+.pie{
+    background-image:linear-gradient(0deg,rgba(92, 13, 7,1) 10%,black 40% ) ;
+    height: 100px;
+  
+    position: relative;
+    border-radius: 20px;
+    margin: 20px;
+    z-index: -1;
+  
+}
+.pie p{
+    display: inline-block;
+    position: absolute;
+    color: silver;
+    left: 15%;
+    font-size: 12px;
+    top: 7%;
+}
+
+#cuadrito{
+    
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    display: inline-block;
+    top: 33%;
+    left: 81%;
+    border-radius: 10px;
+    border: silver solid 1px;
+}
+
+#gif{
+    left: 5%;
+    position: relative;
+    
+}

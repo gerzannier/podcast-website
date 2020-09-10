@@ -1,0 +1,149 @@
+@media screen and (min-width:750px){
+    .header{
+        height: 80px;
+        ul{
+            display: flex;
+            max-height: none;   
+            height: 100%;
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            right: 100px;
+            li{
+                align-items: center;
+                display: flex;
+                a{
+                    padding: 24px;
+                    align-items: center;
+                    color: black;
+                }
+                
+        }}
+        .menu-icon{
+            display: none;
+        }
+        .logo{
+            top: 22px;
+            height: 36px;
+            width: 36px;
+        }
+    }
+    .main{
+        padding-top: 80px;
+        .intro{
+            margin: 0% 13.9% 0% 13.9%;
+            .hello{
+                font-size: 64px;
+                margin-top: 120px;
+                width: 100%;
+                span{
+                   color: #0000EC;
+                }
+            }
+            .text-podcast{
+                padding-right: 40%;
+                padding-top: 10px;
+                font-size: 16px;
+                span{
+                    display:contents ;
+                }
+            }
+            .btn{
+            width: 226px;
+            font-size: 18px;
+            }
+        }
+        .episodios{
+            margin-top: 5px;
+            padding: 186px 0% 232.6px 0%;
+            clip-path: polygon(0 11%, 100% 0, 100% 89%, 0% 100%);
+            .episodiot{
+                font-size: 48px;
+                margin-left: 13.9%;
+            }
+            .podcontent{
+                margin-left: 6.9%;
+                margin-right: 6.9%;
+                justify-content:space-around;
+                .polss{
+                    width: 40%;
+                    height: 232px;
+                }
+            }
+        }
+        .dedonde{
+            flex-flow: nowrap;
+            margin-top: -168.6px;
+            justify-content: center;
+            align-items: center;
+            .img{
+                height: 660px;
+                width: 457.6px;
+            }
+            .dedondet{
+                width: 32.2%;
+                h1{
+                    width: 100%;
+                    font-size: 48px;
+                }
+                h3{
+                    font-size: 16px;
+                }
+            }
+        }
+        .invitadas{
+            padding-top: 54px;
+            h1{
+                margin-left: 5%;
+                width: 50%;
+            }
+            .invcontent{
+                margin-top: 14px;
+                display: flex;
+                flex-flow: wrap;
+                img{
+                    width: 33.3333%;
+                    height: auto;
+                }
+            }
+        }
+        .temas{
+            padding: 64px 13.9% 34px 13.9%;
+            h1{
+                font-size: 48px;
+            }
+            .iconcontent{
+                flex-flow: nowrap;
+                justify-content:center;
+            }
+        }
+
+        .novedades{
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0% 100%);
+            padding: 213px 0% 151px 0%;
+            h1{
+                font-size: 48px;
+            }
+            .btn{
+                font-size: 18px;
+                width: 288px;
+            }
+        }
+    }
+    .footer{
+        padding: 36px 6.9% 31px 6.9%;
+        width: 100%;
+        flex-flow: nowrap;
+        justify-content: space-between;
+        h3{
+            width: auto;
+        }
+        .iconcontent{
+            width: 250px;
+            padding: 0;
+        }
+    }
+}

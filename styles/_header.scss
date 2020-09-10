@@ -1,0 +1,96 @@
+
+   .header{
+       background-color: white;
+       position: fixed;
+       width: 100%;
+       z-index: 3;
+       height: 44px;
+       .logo{
+           position: relative;
+           float: left;
+           display: block;
+           top: 10px;
+           left: 5%;
+       }
+       ul{
+           top: 21px;
+           position: relative;
+           font-size: 16px;
+           list-style: none;
+           overflow: hidden;
+           background-color: blue;
+           clear: both;
+           max-height: 0;
+           transition: max-height .2s ease-out;
+           li{
+            :hover{
+                color: #00F3BB;
+                text-decoration: line-through;
+            }
+            :active{
+                color: #060A24;
+            }
+           a{
+               display: block;
+               padding: 20px;
+               text-decoration: none;
+               color: white;
+           }
+       }
+    }
+        .menu-icon{
+               position: relative;
+               float: right;
+               cursor: pointer;
+               .nav-icon{
+                   background: #333;
+                   display: block;
+                   top: 23px;
+                   right: 19px;
+                   height: 2px;
+                   width: 18px;
+                   position: relative;
+                   transition: background .2s ease-out;
+                   &:before{
+                        background: #333;
+                        content:"";
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top:5px;
+                        transition: all .2s ease-out;
+                   }
+                   &:after{
+                        background: #333;
+                        content:"";
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top:-5px;
+                        transition: all .2s ease-out;
+
+               }
+               }
+           }
+           .menu-btn{
+               display: none;
+               &:checked ~ .menu{
+                max-height: 240px;                 
+               }  
+               &:checked ~ .menu-icon {  
+                   .nav-icon{
+                        background-color: transparent;
+                        &:before{
+                            transform: rotate(-45deg);
+                            top: 0;
+                        }
+                        &:after{
+                            transform: rotate(45deg);
+                            top: 0;
+                        }
+            }
+               
+            } }
+}
